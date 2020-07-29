@@ -54,7 +54,7 @@ body {
     height: 50px;
 }
 
-#Login_button {
+.Login_button {
     display: block;
     background-color: #C0DFFD;
     margin: 10px 10px;
@@ -78,7 +78,7 @@ input {
     padding: 10px;
 }
 
-#wrapper_right_content_input_id {
+.wrapper_right_content_input_id {
     margin-top: 20px;
     margin-bottom: 7px;
 }
