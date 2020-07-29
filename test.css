@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+div{
+    margin: 20px;
+    
+
+}
+
+article{
+    overflow: hidden;
+}
+/*1 for banner*/
+div:nth-child(1){
+    background-color: aquamarine;
+    position: fixed;
+    top: 10px;
+    left: 0;
+    right: 0;
+    height: 150px;
+}
+
+/*2 for left side bar*/
+div:nth-child(2){
+    background-color: rebeccapurple;
+    float: left;
+    height: 300px;
+    margin-top: 200px;
+    width: 30%;
+}
+/* 3 for main contents*/
+div:nth-child(3){
+    background-color:royalblue;
+    margin-top: 200px;
+    width: 60%;
+    display: inline-block;
+    height: 300px;
+    ;
+
+}
