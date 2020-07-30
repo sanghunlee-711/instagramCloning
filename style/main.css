@@ -2,9 +2,20 @@
     box-sizing: border-box;
 }
 
+.heartimg {
+    background-image: url("/img/dog.jpeg");
+    width: 25px;
+    height: 25px;
+}
+
 html {
     background-color: #FAFAFA;
 }
+
+.main_feed_article_peoples_bottom_idwithcontents>div>span {
+    margin: 10px;
+}
+
 
 nav {
     position: fixed;

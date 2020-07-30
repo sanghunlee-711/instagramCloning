@@ -57,7 +57,7 @@
                   <div class="storyboardCircle">
                   </div>
                 </div>
-                <span>Dragon</span>
+                <span id="exampleId">Dragon</span>
               </li>
               <li>
                 <div class="" style="border: 1px solid #C62F90; border-radius: 100%; padding: 2px;">
@@ -153,7 +153,7 @@
             <!--for main image-->
             <section class="main_feed_article_peoples_button">
               <div class="main_feed_article_peoples_button_iconwrapper">
-                <span class="main_feed_article_peoples_button_icon">
+                <span class="main_feed_article_peoples_button_icon" id="heart">
                   <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png">
                 </span>
                 <span class="main_feed_article_peoples_button_icon">
@@ -179,12 +179,6 @@
                     <span>sanghun_lee</span>
                     <span>Thank you~!~!~</span>
                   </div>
-                  <!--
-                  <div class="comment_add">
-                    <span>sanghun_lee</span>
-                    <span>Thank you~!~!~</span>
-                  </div>
-                  -->
                 </div>
                 <div class="main_feed_article_peoples_bottom_postingtime">
                   <span>77 Minute</span>
@@ -193,7 +187,7 @@
 
               <section class="main_feed_article_peoples_bottom_comment">
                 <textarea id="feedCommentInput" type="text" placeholder="Add a comment..."></textarea>
-                <button type="submit">
+                <button type="submit" id="commentsubmitbtn">
                   Post
                 </button>
               </section>
@@ -258,7 +252,7 @@
                 </div>
               </div>
 
-              <section class="main_feed_article_peoples_bottom_comment">
+              <section class="main_feed_article_peoples_bottom_comment" id="commentSection">
                 <textarea type="text" placeholder="Add a comment..."></textarea>
                 <button type="submit">
                   Post

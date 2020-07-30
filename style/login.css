@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+button {
+    outline: 0;
+}
+
 body {
     background-color: #fafafa;
     margin: 0 auto;
@@ -70,7 +74,7 @@ input {
     display: block;
     height: 40px;
     width: 270px;
-
+    outline: 0;
     border: 1px solid #DBDBDB;
     border-radius: 2px;
     text-align: left;
