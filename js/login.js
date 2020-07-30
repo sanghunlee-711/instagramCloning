@@ -1,6 +1,8 @@
 
 const idinput = document.getElementById("wrapperRightContentInputId"); 
+const id = document.getElementById("wrapperRightContentInputId");
 const pw = document.getElementById("wrapperRightContentInputPw");
+
 
 const btnColorChangeid = () => {
     const id = document.getElementById("wrapperRightContentInputId").value;
@@ -26,9 +28,17 @@ const btnColorChangepw = () => {
     }
 }
 
-btnColorChangeid();
-btnColorChangepw();
+const inputValueSave = ()=>{
+    const idvalue = document.getElementById("wrapperRightContentInputId").value;
+    const id = document.getElementById("wrapperRightContentInputId");
+    id.value = idvalue;
+    console.log(idvalue)
+}
 
+
+
+
+id.addEventListener("keyup",inputValueSave);
 idinput.addEventListener("keyup",btnColorChangeid);
 pw.addEventListener("keyup",btnColorChangepw);
 
